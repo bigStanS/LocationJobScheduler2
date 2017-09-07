@@ -101,10 +101,10 @@ public class WorkService extends IntentService implements GoogleApiClient.Connec
 ////                "}";
 
         Log.i(TAG, "updateServer: Entry");
-//        String url = "https://getmovez.com/tupdateLocation";
-        String url = "http://192.168.1.190:8080/tupdateLocation";
-//        String jsonParams = "{\"trucker\":\"3b7142a1d4e64f750c4af0a91387adc0d13e1c63\"," +
-        String jsonParams = "{\"trucker\":\"a238ed0ed7556555b789a6f10b9e2e46232c21cf\"," +
+        String url = "https://getmovez.com/tupdateLocation";
+//        String url = "http://192.168.1.190:8080/tupdateLocation";
+        String jsonParams = "{\"trucker\":\"3b7142a1d4e64f750c4af0a91387adc0d13e1c63\"," +
+//        String jsonParams = "{\"trucker\":\"a238ed0ed7556555b789a6f10b9e2e46232c21cf\"," +
                 "\"longitude\":\"" + longitude + "\"," +
                 "\"latitude\":\"" + latitude + "\"" +
                 "}";
