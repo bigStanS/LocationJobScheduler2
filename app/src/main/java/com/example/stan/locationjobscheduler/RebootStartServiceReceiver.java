@@ -6,13 +6,13 @@ import android.content.Intent;
 import android.util.Log;
 
 
-public class MyStartServiceReceiver extends BroadcastReceiver {
-    private static final String TAG = "MyStartServiceReceiver";
+public class RebootStartServiceReceiver extends BroadcastReceiver {
+    private static final String TAG = "RebootServiceReceiver";
 
     @Override
     public void onReceive(Context context, Intent intent) {
         Log.i(TAG, "onReceive: ");
-        Util.scheduleJob(context);
+        Scheduler.scheduleJob(context);
     }
 
 

@@ -13,12 +13,12 @@ import okhttp3.Request;
 import okhttp3.RequestBody;
 import okhttp3.Response;
 
-public class NetworkService extends IntentService {
+public class HttpService extends IntentService {
     private static final String TAG = "MyService";
     private static final String NETWORK_SERVICE_MESSAGE = "networkServiceMessage";
     private static final String NETWORK_SERVICE_PAYLOAD = "networkServicePayload";
 
-    public NetworkService() {
+    public HttpService() {
         super("MyNetworkIntentService");
     }
 
