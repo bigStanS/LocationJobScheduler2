@@ -11,7 +11,7 @@ public class RebootStartServiceReceiver extends BroadcastReceiver {
 
     @Override
     public void onReceive(Context context, Intent intent) {
-        Log.i(TAG, "onReceive: ");
+        Log.i(TAG, "Boot Completed - start service");
         Scheduler.scheduleJob(context);
     }
 
